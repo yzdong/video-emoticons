@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://simplewebrtc.com/latest.js"></script> 
+		<link href="./css/style.css" rel="stylesheet" type="text/css">
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/utils.js"></script>
+		<script src="./js/clmtrackr.js"></script>
+		<script src="./models/model_pca_20_svm_emotionDetection.js"></script>
+		<script src="./js/emotion_classifier.js"></script>
+        <script src="./js/emotionmodel.js"></script>
+        <script src="./js/socket.io.js"></script>
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+
+        <!-- <video id="videoel" width="120" height="90" preload="auto" loop></video> -->
+        <!-- <canvas id="overlay" width="120" height="90"></canvas> -->
+        <div id="remote">
+
+            <!-- <canvas id="overlay" width="640" height="480"></canvas> -->
+        </div>
+        <div id="emoticons">
+            <img class="emotion_icon" id="icon1" src="./img/icon_angry.png">
+            <img class="emotion_icon" id="icon2" src="./img/icon_sad.png">
+            <img class="emotion_icon" id="icon3" src="./img/icon_surprised.png">
+            <img class="emotion_icon" id="icon4" src="./img/icon_happy.png">
+        </div>
+    </body>
+</html>

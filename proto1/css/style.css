@@ -1,0 +1,25 @@
+#icon1, #icon2, #icon3, #icon4 {
+    visibility: hidden;
+}
+
+.blurred {
+    -webkit-filter: blur(25px);
+}
+
+#remote video{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:640px;
+    height: 480px;
+    z-index: -1000;
+}
+#remote canvas{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width:640px;
+    height: 480px;
+
+
+
